@@ -1,5 +1,7 @@
 # ShrutiSynth — AI-Powered Carnatic Music Generator
-PS-1 internship project at Swecha Tech - May-July 2025
+
+***PS-1 internship project at Swecha Tech — May–July 2025***
+
 
 ShrutiSynth is an AI application that generates Carnatic classical music using digital signal processing and a custom audio synthesis engine. Built as a foundational prototype for Swecha's broader Indian-language AI roadmap, the project addresses a gap in existing AI music tools, which are largely built around Western music frameworks and lack support for the structural and tonal grammar of Carnatic music.
 
@@ -38,6 +40,8 @@ The project was developed during a 5-day rapid prototyping sprint and involved c
 | `pyproject.toml` | Python project metadata and dependencies |
 
 ## Folder Layout
+
+```
 ShrutiSynth/
 ├── Home.py
 ├── complete_carnatic_generator.py
@@ -47,7 +51,8 @@ ShrutiSynth/
 │   ├── 02_Education.py
 │   └── Music_Generator.py
 └── .streamlit/
-└── config.toml
+    └── config.toml
+```
 
 ## Setup and Usage
 

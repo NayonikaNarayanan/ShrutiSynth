@@ -7,9 +7,15 @@ The application allows users to select traditional Carnatic Indian ragas, instru
 
 ## Project Background
 
-ShrutiSynth was developed during a 5-day rapid prototyping sprint as part of an internship at Swecha Tech (May–July 2025). The work involved competitive analysis of existing AI music generators, definition of MVP scope and accuracy benchmarks, and validation of generated outputs against domain expertise in Carnatic vocals — including evaluation of raga scales, gamaka ornamentations, and instrument-specific harmonic characteristics.
+ShrutiSynth originated from a conversation during my internship at Swecha Tech (May–July 2025). As a trained Carnatic classical vocalist of 14 years with additional training in Robindro Sangeet (Bengali classical vocals), I was interested in how existing AI music generators handle non-Western traditions — and found that the space is almost entirely built around Western classical and popular music frameworks, with virtually no tools trained on Indian classical forms.
 
-The current implementation uses a custom Python audio synthesis engine. An AudioCraft / MusicGen abstraction layer is built into the architecture to support future integration of larger generative models.
+This matters beyond a technical gap. As younger generations increasingly turn to AI tools to explore and learn music, the absence of Indian classical representation risks these traditions being gradually excluded from the next wave of music technology. ShrutiSynth was conceived as a first step toward addressing this — an AI music generator built around the structural and tonal grammar of Indian classical music, designed to remain accessible to non-musicians without flattening the musicological depth of the form.
+
+The long-term vision is a broader Indian classical music generator spanning multiple traditions. Given the scope required for a reliable MVP, the first version focuses specifically on Carnatic music, with the architecture designed to extend to other Indian classical forms in future iterations.
+
+The project was developed during a 5-day rapid prototyping sprint and involved competitive analysis of existing AI music generators, definition of MVP scope and accuracy benchmarks, and validation of generated outputs against domain expertise in Carnatic vocals — including evaluation of raga scales, gamaka ornamentations, and instrument-specific harmonic characteristics. The current implementation uses a custom Python audio synthesis engine, with an AudioCraft / MusicGen abstraction layer built into the architecture to support future integration of larger generative models.
+
+
 
 ## Features
 

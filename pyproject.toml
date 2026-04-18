@@ -1,0 +1,23 @@
+[project]
+name = "shruthisynth"
+version = "0.1.0"
+description = "AI-Powered Carnatic Music Generator"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.46.0",
+    "numpy",
+    "scipy",
+    "soundfile",
+]
+
+[[tool.uv.index]]
+explicit = true
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "platform_system == 'Linux'" }]
+torchaudio = [{ index = "pytorch-cpu", marker = "platform_system == 'Linux'" }]
+accelerate = [{ index = "pytorch-cpu", marker = "platform_system == 'Linux'" }]
+audiocraft = [{ index = "pytorch-cpu", marker = "platform_system == 'Linux'" }]
+transformers = [{ index = "pytorch-cpu", marker = "platform_system == 'Linux'" }]

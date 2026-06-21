@@ -1,7 +1,7 @@
 # ShrutiSynth: AI-Powered Carnatic Music Generator
 
-***PS-1 internship project at Swecha Tech, May–July 2025***
-***Summer internship project at FLWSTUDIO, May–July 2026***
+***PS-1 internship project at Swecha Tech, May–July 2025***  
+***Summer internship project at Flw Studio, May–July 2026***
 
 ShrutiSynth is an AI application that generates Carnatic classical music using digital signal processing and a custom audio synthesis engine. Built as a foundational prototype for Swecha's broader Indian-language AI roadmap, the project addresses a gap in existing tools: no AI product on the market is built specifically for Carnatic music, and none serve the intermediate student who already has foundations and wants to explore the tradition independently.
 
@@ -21,7 +21,7 @@ Intermediate Carnatic music students struggle to explore independently because e
 
 ## Project Background
 
-ShrutiSynth originated from a conversation during my internship at Swecha Tech (May–July 2025). As a trained Carnatic classical vocalist of 14 years with additional training in Robindro Sangeet (Bengali classical vocals), I was interested in what tools actually exist for classical music learners at the intermediate level, and what I found was a market gap that is both specific and unoccupied.
+ShrutiSynth originated from a conversation during my internship at Swecha Tech (May–July 2025). As a trained Carnatic classical vocalist of 14 years, I was interested in what tools actually exist for classical music learners at the intermediate level, and what I found was a market gap that is both specific and unoccupied.
 
 I surveyed the major products in the Indian classical music learning space: Riyaz, SwarShala, Shankar Mahadevan Academy, NaadSadhana, Artium Academy, and Acharyanet. Every single one either covers Carnatic as one module within a broader Indian classical or multi-genre platform, or optimises for beginner onboarding and live guru access. Not one is built specifically around the theory, grammar, and exploration needs of a student who already has their foundations.
 

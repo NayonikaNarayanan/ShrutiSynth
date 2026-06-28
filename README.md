@@ -5,7 +5,9 @@
 
 ShrutiSynth is an AI application that generates Carnatic classical music using digital signal processing and a custom audio synthesis engine. Built as a foundational prototype for Swecha's broader Indian-language AI roadmap, the project addresses a gap in existing tools: no AI product on the market is built specifically for Carnatic music, and none serve the intermediate student who already has foundations and wants to explore the tradition independently.
 
-The application allows users to select traditional ragas, instruments, and moods, and generates expressive compositions with varied tempo and gamaka ornamentation. It includes an integrated learning module covering raga theory and instrument context.
+The application allows users to select traditional ragas, instruments, and moods, and generates expressive compositions with varied tempo and gamaka ornamentation. It includes an integrated learning module covering raga theory and instrument context.  
+
+![The Problem](research%20deck%20slides/slide-1.png)  
 
 ## Who It's For
 
@@ -13,23 +15,35 @@ ShrutiSynth is built for intermediate Carnatic music students: students who alre
 
 It is not designed for absolute beginners. Without foundational technique built under a guru, a generative tool can reinforce incorrect habits or cause confusion. ShrutiSynth's purpose is to support the stage after foundations are in place, where independent musical exploration becomes both possible and important.
 
-**North Star:** ShrutiSynth exists so that no intermediate Carnatic music student ever has to stop exploring the tradition just because their guru isn't in the room.
+**North Star:** ShrutiSynth exists so that no intermediate Carnatic music student ever has to stop exploring the tradition just because their guru isn't in the room.  
+
+![Differentiator](research%20deck%20slides/slide-3.png)
+  
 
 ## Problem Statement
 
-Intermediate Carnatic music students struggle to explore independently because existing frameworks for the tradition weren't designed for self-directed, digital learning. There's a gap between the depth of knowledge that exists and what this generation can actually access on their own.
+Intermediate Carnatic music students struggle to explore independently because existing frameworks for the tradition weren't designed for self-directed, digital learning. There's a gap between the depth of knowledge that exists and what this generation can actually access on their own.  
+
+![User Research](research%20deck%20slides/slide-4.png)  
 
 ## Project Background
 
 ShrutiSynth originated from a conversation during my internship at Swecha Tech (May–July 2025). As a trained Carnatic classical vocalist of 14 years, I was interested in what tools actually exist for classical music learners at the intermediate level, and what I found was a market gap that is both specific and unoccupied.
 
-I surveyed the major products in the Indian classical music learning space: Riyaz, SwarShala, Shankar Mahadevan Academy, NaadSadhana, Artium Academy, and Acharyanet. Every single one either covers Carnatic as one module within a broader Indian classical or multi-genre platform, or optimises for beginner onboarding and live guru access. Not one is built specifically around the theory, grammar, and exploration needs of a student who already has their foundations.
+I surveyed the major products in the Indian classical music learning space: Riyaz, SwarShala, Shankar Mahadevan Academy, NaadSadhana, Artium Academy, and Acharyanet. Every single one either covers Carnatic as one module within a broader Indian classical or multi-genre platform, or optimises for beginner onboarding and live guru access. Not one is built specifically around the theory, grammar, and exploration needs of a student who already has their foundations.  
+
+![Market](research%20deck%20slides/slide-2.png)  
+
+![Research](research%20deck%20slides/slide-6.png)  
 
 The raga library across every competitor illustrated this most clearly. Even the strongest products offered surface-level coverage (notes, arohana/avarohana, maybe a recording) with no relational context. No melakarta system. No gamaka logic per raga. No sense of how ragas connect to each other. The raga library is treated as a catalogue, not as an explorable system.
 
 This matters beyond a technical gap. As younger generations increasingly turn to AI tools, the absence of tools that reflect the depth of Indian classical traditions risks the next generation of students losing access to the structure and grammar of what they're learning. ShrutiSynth is a first step toward filling that gap, starting with Carnatic music, with architecture designed to extend to other Indian classical traditions in future iterations.
 
-The project was developed during a 5-day rapid prototyping sprint and involved competitive analysis of existing tools, definition of MVP scope and accuracy benchmarks, and validation of generated outputs against domain expertise in Carnatic vocals, including evaluation of raga scales, gamaka ornamentations, and instrument-specific harmonic characteristics. The current implementation uses a custom Python audio synthesis engine, with an AudioCraft / MusicGen abstraction layer built into the architecture to support future integration of larger generative models.
+The project was developed during a 5-day rapid prototyping sprint and involved competitive analysis of existing tools, definition of MVP scope and accuracy benchmarks, and validation of generated outputs against domain expertise in Carnatic vocals, including evaluation of raga scales, gamaka ornamentations, and instrument-specific harmonic characteristics. The current implementation uses a custom Python audio synthesis engine, with an AudioCraft / MusicGen abstraction layer built into the architecture to support future integration of larger generative models.  
+
+![Evolution](research%20deck%20slides/slide-7.png)  
+  
 
 ## Features
 
